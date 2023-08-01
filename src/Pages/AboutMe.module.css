@@ -1,0 +1,74 @@
+/* import 'inter' google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Resetting */
+* {
+    margin: 0;
+    padding: 0;
+    color: #28363D;
+    box-sizing: border-box;
+    font-family: 'Inter', 'sans-serif';
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh auto;
+    width: 96vw;
+    height: 82vh;
+}
+
+.leftSubContainer {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 100%;
+}
+
+.imgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 40%;
+    border-radius: 20px;
+    background-size: 100%;
+    background-position: 0 94%;
+    background-repeat: no-repeat;
+    box-shadow: 0 10px 10px;
+    margin-bottom: 6%;
+}
+
+.imgContainer p {
+    border-radius: 20px;
+    padding: 20px;
+    margin-right: 4%;
+    color: #DEE1DD;
+    border: 2px solid #DEE1DD;
+    font-size: 3.2vw;
+    font-weight: 100;
+    background-color: #28363D;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #28363D;
+    padding: 30px;
+}
+
+.textContainer p {
+    height: 100%;
+    text-align:justify;
+    font-size: 20px;
+}
+
+.rightSubContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    width: 22%;
+    height: 100%;
+    overflow-y: scroll;
+}

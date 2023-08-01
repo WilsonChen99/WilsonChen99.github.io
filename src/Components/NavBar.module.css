@@ -1,0 +1,65 @@
+/* import 'inter' google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+
+/*
+Resetting
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'sans-serif';
+}
+
+.div {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #28363D;
+    width: 100vw;
+    height: 8vh;
+}
+
+
+/*
+Titles Section
+*/
+
+.title {
+    color: #DEE1DD;
+    font-size: 2vw;
+    margin-left: 3%;
+}
+
+.subtitle {
+    display: inline-flex;
+    width: 22%;
+    margin-left: 50%;
+    justify-content: space-around;
+}
+
+.a {
+    color: #DEE1DD;
+    font-family: 'Inter', 'sans-serif';
+    font-size: 1.2vw;
+    font-weight: 200;
+    text-decoration: none;
+
+}
+
+.a:hover {
+    font-weight: 400;
+}
+
+
+/*
+Buttons Section
+*/
+.buttons {
+    display: inline-flex;
+    width: 12%;
+    margin-right: 3%;
+    justify-content: space-around;
+}

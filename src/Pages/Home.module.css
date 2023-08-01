@@ -1,0 +1,83 @@
+/* import 'inter' google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Resetting */
+* {
+    margin: 0;
+    padding: 0;
+    color: #28363D;
+    box-sizing: border-box;
+    font-family: 'Inter', 'sans-serif';
+}
+
+body {
+    background-color: #99AEAD;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.profilePic {
+    position: absolute;
+    margin: 20vh 0 0 6vw;
+    width: 25vw;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px #28363D;
+    padding: 0;
+}
+
+.centerBackground {
+    width: 97.5vw;
+    height: 60vh;
+    background-color: #2F575D;
+    margin-top: 2.5vw;
+}
+
+.centerBackground p{
+    color: #DEE1DD;
+    letter-spacing: 0.5vw;
+    margin: 0 0 1vh 33vw;
+}
+
+.title {
+    font-size: 2vw;
+    padding-top: 16vh;
+}
+
+.subTitle {
+    font-size: 1.2vw;
+    font-weight: 200;
+}
+
+.selectionBar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 100vh;
+    width: 20vw;
+    background-color: rgba(40, 54, 61, 20%);
+    margin-left: 80vw;
+    align-items: center;
+    padding-top: 19vh;
+}
+
+.selectionBar a {
+    margin-bottom: 7vh;
+    opacity: 200%;
+}
+
+.selectionBar a p {
+    color: #DEE1DD;
+    opacity: 200%;
+    font-size: 1.6vw;
+    font-weight: 200;
+}
+
+.buttonSection {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}

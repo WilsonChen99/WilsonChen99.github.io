@@ -1,0 +1,13 @@
+.artistImg {
+    border-radius: 10px;
+    width: 10%;
+}
+
+.artistSubP {
+    display: flex;
+    justify-content: space-between;
+}
+
+.artistSubP P {
+    margin-right: 1vw;
+}

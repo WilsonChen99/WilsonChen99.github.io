@@ -1,0 +1,107 @@
+/* import 'inter' google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+img {
+    border: none;
+    background-color: transparent;
+    border-radius: 2px;
+    padding: 5px;
+    border: 0 solid #28363D;
+    width: 100%;
+}
+
+.buttonFilled{
+    width: 100%;
+    min-height: 70px;
+    background-color: #28363D;
+    border: none;
+    border-radius: 14px;
+    font-size: 30px;
+    color: #99AEAD;
+    font-family: 'Inter', 'sans-serif';
+}
+
+.buttonFilled:hover{
+    transition: .25s;
+    background-color: #6D9197;
+    color: #28363D;
+}
+
+.buttonHollow{
+    width: 100%;
+    min-height: 70px;
+    background-color: transparent;
+    border: 2.5px solid #28363D;
+    border-radius: 14px;
+    font-size: 30px;
+    color: #28363D;
+    font-family: 'Inter', 'sans-serif';
+
+}
+
+.buttonHollow:hover{
+    transition: .25s;
+    background-color: #6D9197;
+    color: #28363D;
+    border: 2.5px solid #6D9197;
+
+}
+
+.squareButton {
+    width: 20%;
+    border: 2.5px solid #28363D;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.squareButton:hover{
+    transition: .25s;
+    background-color: #6D9197;
+    border: 2.5px solid #6D9197;
+}
+
+.squareButtonLight {
+    width: 20%;
+    border: 1.5px solid #C4CDC1;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.squareButtonLight:hover {
+    transition: .25s;
+    background-color: #6D9197;
+    border: 2.5px solid #6D9197;
+}
+
+.SelectionBarButton {
+    color: #28363D;
+    font-size: 1.5vw;
+    border: none;
+    border-radius: 16px;
+    background-color: #6D9197;
+    width: 100%;
+    height: 7vh;
+    margin-bottom: 8%;
+    font-weight: 200;
+}
+
+.SelectionBarButton:hover {
+    background-color: #2F575D;
+    transition: all 0.15s ease;
+}
+
+.SelectionBarButtonActive {
+    color: #DEE1DD;
+    font-size: 1.5vw;
+    border: none;
+    border-radius: 16px;
+    background-color: #28363D;
+    width: 100%;
+    height: 7vh;
+    margin-bottom: 8%;
+}
+
+.SelectionBarButtonActive p {
+    color: #DEE1DD;
+}

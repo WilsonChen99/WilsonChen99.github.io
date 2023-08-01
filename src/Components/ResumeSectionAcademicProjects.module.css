@@ -1,0 +1,49 @@
+/* import 'inter' google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Resetting */
+* {
+    margin: 0;
+    padding: 0;
+    color: #28363D;
+    box-sizing: border-box;
+    font-family: 'Inter', 'sans-serif';
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container div {
+    display: inline-flex;
+}
+
+.title {
+    font-size: 1.4vw;
+    opacity: 50%;
+}
+
+.briefContainer {
+    margin-top: 5vh;
+    height: 23vh;
+    overflow-y: scroll;
+    padding-bottom: 3vh;
+}
+
+.briefContainer ul {
+    list-style: none;
+}
+
+.briefContainer ul li {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.4vh;
+}
+
+
+.briefContainer ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #2F575D; /* Change the color */
+    margin-right: 1vw;
+}
