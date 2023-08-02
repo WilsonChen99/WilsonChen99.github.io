@@ -8,7 +8,7 @@ export default function Resume() {
     // Provides desired nav bar option and corresponding link path
     const navBarChoices = {
         'Home': '/',
-        'About Me': '/aboutMe'
+        'About Me': '/#/aboutMe'
     }
 
     return(

@@ -14,8 +14,8 @@ export default function Home() {
                 </div>
                 <img className={styles.profilePic} src='ProfilePic.jpg' alt='profile pic'/>
                 <div className={styles.selectionBar}>
-                    <a href='/aboutMe'><p>ABOUT ME</p></a>
-                    <a href='/resume'><p>RESUME</p></a>
+                    <a href='/#/aboutMe'><p>ABOUT ME</p></a>
+                    <a href='/#/resume'><p>RESUME</p></a>
                     <div className={styles.buttonSection}>
                         <ButtonSquareLight img='github-mark-white.png' alt='github' link='https://github.com/WilsonChen99'/>
                         <ButtonSquareLight img='in_white.png' alt='linkedIn' link='https://www.linkedin.com/in/wilson-chen-668785181'/>

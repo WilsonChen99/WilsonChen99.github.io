@@ -16,7 +16,7 @@ export default function AboutMe() {
     /* Subtitles for the nav bar */
     const subtitles = {
         'Home': '/',
-        'Resume':'/resume'
+        'Resume':'/#/resume'
     }
 
     /*
