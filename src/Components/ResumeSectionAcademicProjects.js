@@ -44,7 +44,7 @@ const langaugesFormat = (languages) => {
                         <>
                             <div>
                                 <p className={styles.title}>{language.title}:&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                                <p>{language.language}</p>
+                                <p className={styles.languages}>{language.language}</p>
                             </div>
                         </>
                     )

@@ -93,6 +93,84 @@ Education Section
     font-size: 25px;
 }
 
+/*
+Education Mobile
+*/
+@media only screen and (max-width: 480px){
+    .educationContainer {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        height: 64vh;
+        margin-top: 2vh;
+        margin-left: 5vw;
+        align-items: center;
+    }
+    
+    .educationLeftContainer {
+        display: inline-flex;
+        width: 94%;
+        height: 30%;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 0;
+        border-bottom: 0.25px solid #28363D;
+    }
+    
+    .uscLogo {
+        width: 20vw;
+        height: 20vw;
+    }
+    
+    .educationLeftSubContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 1vw;
+        margin-right: 6vw;
+    }
+    
+    .uscBig {
+        color: #761a1a;
+        font-weight: bold;
+        font-size: 4em;
+        font-family: 'Adobe Caslon Pro', serif;
+    }
+    
+    .leftText {
+        font-family: 'National 2', serif;
+        font-size: 1em;
+    }
+    
+    .educationRightContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 60%;
+        padding: 2vw;
+        border: none;
+    }
+    
+    .educationInfoContainer {
+        display: inline-flex;
+        width: 100%;
+        align-items: baseline;
+        justify-content: space-between;
+        margin-bottom: 3vh;
+    }
+    
+    .subTitle {
+        font-size: 1em;
+        color: #28363D;
+        opacity: 40%;
+    }
+    
+    .rightText {
+        font-size: 1.2em;
+    }   
+}
+
 
 /*
 Honors Section
@@ -130,6 +208,44 @@ Honors Section
     margin-bottom: 1vh;
 }
 
+/* 
+Honors Mobile
+*/
+@media only screen and (max-width: 480px) {
+    .honorsContainer {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        height: 64vh;
+        margin-top: 2vh;
+        margin-left: 5vw;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8em;
+    }
+    
+    .honorsLogo {
+        width: 13vw;
+    }
+    
+    .honorsDiv {
+        display: inline-flex;
+        align-items: center;
+        margin-bottom: 5vh;;
+    }
+    
+    .hoverDiv {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3vw;
+        font-size: 1em;
+    }
+    
+    .honorMargin {
+        margin-bottom: 1vh;
+    }
+}
+
 /*
 Skills Section
 */
@@ -157,8 +273,8 @@ Skills Section
     font-size: 2.2vw;
     font-variant-caps: all-petite-caps;
     padding: 10px;
-    border-radius: 20px;
-    border: 2px solid #2F575D;
+    border-radius: 10px;
+    border: 1px solid #2F575D;
     transition: all 0.25s ease-out;
     
 }
@@ -190,6 +306,63 @@ Skills Section
     margin-bottom: 2vh;
 }
 
+
+/*
+Skills Mobile
+*/
+@media only screen and (max-width: 480px){
+    .skillsContainer {
+        display: flex;
+        width: 90vw;
+        height: 61vh;
+        margin-top: 2vh;
+        margin-left: 5vw;
+        padding-top: 10vh;
+        font-weight: 200;
+        overflow-x: scroll;
+    }
+    
+    .skillsSectionContainer {
+        margin-top: 3vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .skillsTitle {
+        width: 30vw;
+        text-align: center;
+        font-size: 3em;
+        font-variant-caps: all-petite-caps;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #2F575D;
+        margin: 0 3vw 0 3vw;
+    }
+    
+    .skillsTitleClicked{
+        width: 40vw;
+        text-align: center;
+        font-size: 3em;
+        font-weight: 400;
+        font-variant-caps: all-petite-caps;
+        border-bottom: 0.5px solid #28363D;
+        padding: 10px;
+        margin-right: 8vw;
+    
+    }
+    
+    .skillsSubContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3vh;
+    }
+    
+    .skillsSubContainer p {
+        margin-bottom: 2vh;
+        font-size: 3em;
+    }  
+}
 
 /*
 Courses Section
@@ -224,6 +397,44 @@ Courses Section
 .courseContent {
     font-size: 18px;
     color: #2F575D;
+}
+
+/*
+Courses Mobile
+*/
+@media only screen and (max-width: 480px){
+    .coursesContainer {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        height: 61vh;
+        margin-left: 5vw;
+        font-size: 20px;
+        overflow-y: scroll;
+    }
+    
+    .courseSectionContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8vh;
+        width: 100%;
+        border-bottom: 1px solid #2F575D;
+        border-left: 1px solid #2F575D;
+        padding: 0 0 0.5vh 1vw;
+        justify-content: space-between;
+    }
+    
+    .courseTitle {
+        font-weight: bold;
+        font-size: 0.8em;
+        color: #28363D;
+        margin-bottom: 2vh;
+    }
+    
+    .courseContent {
+        font-size: 0.7em;
+        color: #2F575D;
+    }
 }
 
 /*
@@ -284,9 +495,69 @@ Experience Section
 }
 
 /*
+Experience Mobile
+*/
+@media only screen and (max-width: 480px){
+    .experienceContainer {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        height: 61vh;
+        margin-left: 5vw;
+        font-size: 20px;
+        overflow-y: scroll;
+    }
+    
+    .experienceDiv {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8vh;
+        width: 100%;
+        height: 9vh;
+        border-bottom: 1px solid #2F575D;
+        border-left: 1px solid #2F575D;
+        padding: 0 0 0.5vh 1vw;
+        justify-content: space-between;
+    }
+    
+    .experiencePosition {
+        font-size: 0.6em;
+        color: #2F575D;
+    }
+    
+    .moreInfo {
+        margin: 2vh 0 0 3vw;
+        font-size: 0.8em;
+        font-weight: 200;
+    }
+    
+    .experienceEmployer {
+        font-weight: bold;
+        font-size: 0.8em;
+        color: #28363D;
+    }
+    
+    .experienceHiddenBlock {
+        border-left: 0.5px solid #28363D;
+        padding-left: 1vw;
+        margin-top: 2vh;
+    }
+
+    .experienceHiddenBlock div p {
+        font-size: 0.8em;
+    }
+    
+    .experienceSubTitle {
+        font-size: 0.7em;
+        margin-top: 1vh;
+        color: #2F575D;
+        opacity: 50%;
+    }
+}
+
+/*
 Academic Projects Section
 */
-
 .projectsContainer {
     display: flex;
     width: 94vw;
@@ -334,4 +605,60 @@ Academic Projects Section
     width: 23%;
     height: 67vh;
     overflow: scroll;
+}
+
+/*
+Academic Project Mobile
+*/
+@media only screen and (max-width: 480px){
+    .projectsContainer {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        height: 61vh;
+        margin-top: 3vh;
+        margin-left: 5vw;
+        font-size: 20px;
+        justify-content: space-between;
+    }
+    
+    .projectsLeftContainer {
+        display: flex;
+        flex-direction: column;
+        height: 80%;
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 0 10px 10px #28363D;
+        overflow-y: scroll;
+    }
+    
+    .projectsLeftContainer div p {
+        margin-bottom: 2vh;
+    }
+    
+    .projectsLeftTitleContainer {
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-top: 1vh;
+        margin-bottom: 5vh;
+    }
+    
+    .projectsLeftTitle {
+        font-size: 0.8em;
+        margin-bottom: 5vh;
+    }
+    
+    .projectsLeftSubTitle {
+        font-size: 0.5em;
+        opacity: 50%;
+    }
+    
+    .projectsRightContainer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 8vh;
+        font-size: 0.5em;
+    }
 }

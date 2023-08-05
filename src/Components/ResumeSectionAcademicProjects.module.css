@@ -47,3 +47,32 @@
     color: #2F575D; /* Change the color */
     margin-right: 1vw;
 }
+
+@media only screen and (max-width: 480px){
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container div {
+        display: inline-flex;
+    }
+    
+    .title {
+        font-size: 0.6em;
+        opacity: 50%;
+    }
+
+    .languages {
+        font-size: 0.8em;
+    }
+
+    .briefContainer {
+        overflow-y:visible;
+        margin-top: 1vh;
+    }
+
+    .briefContainer ul li p{
+        font-size: 0.8em;
+    }
+}

@@ -112,3 +112,73 @@ Section for download bar
 .downloadBttn:hover i {
     display: flex;
 }
+
+
+/*
+for mobile
+*/
+@media only screen and (max-width: 480px) {
+    /*
+    Section for selection bar
+    */
+
+    .container {
+        display: inline-flex;
+        width: 94%;
+        margin: 0 3%;
+        border-bottom: 1px solid #28363D;
+        justify-content: space-between;
+        padding-top: 7vh;
+        overflow-x: scroll;
+        z-index: 1;
+    }
+
+    .selected {
+        border: none;
+        border-radius: 4px 4px 0 0;
+        color: #DEE1DD;
+        background-color: #2F575D;
+        font-size: 0.8em;
+        font-weight: 400;
+        padding: 10px 30px;
+        margin-right: 12vw;
+        z-index: 2;
+    }
+
+    .unselected {
+        border: none;
+        background-color: transparent;
+        font-size: 0.8em;
+        font-weight: 200;
+        transition: all 0.15s ease-out;
+        margin-right: 12vw;
+    }
+
+    /*
+    Section for download bar
+    */
+    .downloadBarContainer {
+        display: flex;
+        width: 100%;
+        height: 7vh;
+        border-top: 1px solid #658B6F;
+        margin-top: 0;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+
+    .downloadBttn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #2F575D;
+        border: none;
+        border-radius: 5px;
+        width: 20vw;
+        height: 5vh;
+        padding: 10px 60px;
+        margin: 3vh 5vw 0 0;
+        overflow: hidden;
+    }
+}
