@@ -63,3 +63,31 @@ Buttons Section
     margin-right: 3%;
     justify-content: space-around;
 }
+
+
+/* for mobile devices */
+@media only screen and (max-width: 480Px) {
+    .div {
+        height: 10vh;
+        width: 100vw;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .subtitle {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10vw;
+        width: 40vw;
+    }
+
+    .a{
+        font-size: 1em;
+    }
+
+    .buttons {
+        width: 40vw;
+    }
+}

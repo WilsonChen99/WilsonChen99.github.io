@@ -1,5 +1,7 @@
 /* import 'inter' google font */
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* import arrow icon */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 
 /* Resetting */
 * {
@@ -41,10 +43,10 @@ Section for selection bar
     background-color: transparent;
     font-size: 1.4vw;
     font-weight: 200;
+    transition: all 0.15s ease-out;
 }
 
 .unselected:hover {
-    transition: all 0.15s ease-in;
     border: none;
     border-radius: 4px 4px 0 0;
     color: #DEE1DD;
@@ -69,15 +71,44 @@ Section for download bar
 }
 
 .downloadBttn {
-    color: #DEE1DD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #2F575D;
     border: none;
     border-radius: 5px;
+    width: 20vw;
+    height: 5vh;
     padding: 10px 60px;
     margin-right: 3vw;
+    transition: all 0.25s ease-in;
+    overflow: hidden;
+}
+
+.downloadBttn span,
+.downloadBttn i {
+    transition: display 0.25s ease-in;
+}
+
+.downloadBttn span {
+    color: #DEE1DD;
+}
+
+.downloadBttn i {
+    display: none;
+    font-size: 1.5vw;
+    font-weight: 200;
+    color: #DEE1DD;
 }
 
 .downloadBttn:hover {
-    transition: all 0.15s ease-in;
     background-color: #6D9197;
+}
+
+.downloadBttn:hover span {
+    display: none;
+}
+
+.downloadBttn:hover i {
+    display: flex;
 }

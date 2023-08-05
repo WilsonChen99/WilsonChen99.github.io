@@ -159,11 +159,12 @@ Skills Section
     padding: 10px;
     border-radius: 20px;
     border: 2px solid #2F575D;
+    transition: all 0.25s ease-out;
     
 }
 
 .skillsTitle:hover{
-    transition: all 0.15s ease-in;
+    
     border: 2px solid #6D9197;
     color: #6D9197;
 }

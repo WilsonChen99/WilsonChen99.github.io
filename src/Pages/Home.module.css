@@ -18,37 +18,46 @@ body {
     height: 100vh;
     width: 100vw;
     display: flex;
+    overflow: scroll;
 }
 
 .profilePic {
     position: absolute;
     margin: 20vh 0 0 6vw;
     width: 25vw;
+    min-width: 300px;
     border-radius: 10px;
     box-shadow: 0 10px 20px #28363D;
     padding: 0;
 }
 
 .centerBackground {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 97.5vw;
+    min-width: 1000px;
     height: 60vh;
+    min-height: 400px;
     background-color: #2F575D;
     margin-top: 2.5vw;
+    z-index: 0;
 }
 
 .centerBackground p{
+    padding-left: 2%;
     color: #DEE1DD;
     letter-spacing: 0.5vw;
-    margin: 0 0 1vh 33vw;
+    margin: 0 0 1vh 36%;
 }
 
 .title {
-    font-size: 2vw;
-    padding-top: 16vh;
+    font-size: 2em;
+    padding-top: 16%;
 }
 
 .subTitle {
-    font-size: 1.2vw;
+    font-size: 1em;
     font-weight: 200;
 }
 
@@ -56,12 +65,14 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
-    height: 100vh;
+    left: 80%;
+    height: 100%;
     width: 20vw;
+    min-width: 300px;
     background-color: rgba(40, 54, 61, 20%);
-    margin-left: 80vw;
     align-items: center;
-    padding-top: 19vh;
+    padding-top: 15%;
+    z-index: 2;
 }
 
 .selectionBar a {
@@ -72,12 +83,82 @@ body {
 .selectionBar a p {
     color: #DEE1DD;
     opacity: 200%;
-    font-size: 1.6vw;
+    font-size: 1.6em;
     font-weight: 200;
+    transition: color 0.25s ease-out;
+}
+
+.selectionBar a p:hover {
+    color: #658B6F;
 }
 
 .buttonSection {
     display: flex;
     width: 70%;
+    min-width: 200px;
     justify-content: space-around;
+}
+
+.mobileTitle {
+    display: none;
+}
+
+.mobileSubTitle {
+    display: none;
+}
+
+
+
+/* for mobile devices */
+@media only screen and (max-width: 480px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+
+    }
+
+    .centerBackground{
+        display: none;
+    }
+
+    .profilePic {
+        position: absolute;
+        width: 100vw;
+        margin: -6vh 0 0 0;
+        z-index: 0;
+    }
+
+    .selectionBar{
+        display: flex;
+        left: 0;
+        top: 46%;
+        height: 54vh;
+        width: 100vw;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        background-color:#28363D;
+        box-shadow: 0 20px 300px;
+        z-index: 1;
+    }
+
+    .mobileTitle {
+        display: block;
+        font-size: 1.8em;
+        color: #DEE1DD;
+        letter-spacing: 0.3em;
+        margin: -2vh 0 1vh 0;
+        padding: 0 2vw 1vh 2vw;
+        border-bottom: 0.25px solid #DEE1DD;
+    }
+
+    .mobileSubTitle {
+        display: block;
+        font-size: 0.8em;
+        color: #DEE1DD;
+        opacity: 70%;
+        letter-spacing: 0.1em;
+        margin-bottom: 8vh;
+    }
 }

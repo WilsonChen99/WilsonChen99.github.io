@@ -14,6 +14,8 @@ export default function Home() {
                 </div>
                 <img className={styles.profilePic} src='ProfilePic.jpg' alt='profile pic'/>
                 <div className={styles.selectionBar}>
+                    <span className={styles.mobileTitle}>WILSON CHEN</span>
+                    <span className={styles.mobileSubTitle}>UNIVERSITY OF SOUTHERN CALIFORNIA</span>
                     <a href='/#/aboutMe'><p>ABOUT ME</p></a>
                     <a href='/#/resume'><p>RESUME</p></a>
                     <div className={styles.buttonSection}>

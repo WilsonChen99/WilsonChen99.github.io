@@ -52,4 +52,5 @@ export const artist =
         </p>
         <img src='artCode.jpg' alt='art gallery' className={styles.artistImg} />
     </div>
+    
 </>;

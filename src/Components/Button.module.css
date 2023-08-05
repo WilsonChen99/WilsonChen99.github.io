@@ -66,10 +66,10 @@ img {
     border: 1.5px solid #C4CDC1;
     border-radius: 10px;
     background-color: transparent;
+    transition: all 0.25s ease-out;
 }
 
 .squareButtonLight:hover {
-    transition: .25s;
     background-color: #6D9197;
     border: 2.5px solid #6D9197;
 }
@@ -84,11 +84,11 @@ img {
     height: 7vh;
     margin-bottom: 8%;
     font-weight: 200;
+    transition: all 0.25s ease-out;
 }
 
-.SelectionBarButton:hover {
+.SelectionBarButton:hover{
     background-color: #2F575D;
-    transition: all 0.15s ease;
 }
 
 .SelectionBarButtonActive {
@@ -104,4 +104,20 @@ img {
 
 .SelectionBarButtonActive p {
     color: #DEE1DD;
+}
+
+@media only screen and (max-width: 480px) {
+    .SelectionBarButton {
+        width: 48%;
+        height: 6vh;
+        font-size: 1em;
+        margin: 0;
+    }
+
+    .SelectionBarButtonActive {
+        width: 48%;
+        height: 6vh;
+        font-size: 1em;
+        margin: 0;
+    }
 }
