@@ -179,33 +179,12 @@ Honors Section
     display: flex;
     flex-direction: column;
     width: 94vw;
-    height: 70vh;
+    height: 61vh;
     margin-top: 2vh;
     margin-left: 3vw;
     justify-content: center;
     align-items: center;
     font-size: 20px;
-}
-
-.honorsLogo {
-    width: 6vw;
-}
-
-.honorsDiv {
-    display: inline-flex;
-    align-items: center;
-    margin-bottom: 5vh;;
-}
-
-.hoverDiv {
-    display: flex;
-    flex-direction: column;
-    margin-left: 3vw;
-    font-size: 18px;
-}
-
-.honorMargin {
-    margin-bottom: 1vh;
 }
 
 /* 
@@ -216,33 +195,12 @@ Honors Mobile
         display: flex;
         flex-direction: column;
         width: 90vw;
-        height: 64vh;
+        height: 59vh;
         margin-top: 2vh;
         margin-left: 5vw;
         justify-content: center;
         align-items: center;
         font-size: 0.8em;
-    }
-    
-    .honorsLogo {
-        width: 13vw;
-    }
-    
-    .honorsDiv {
-        display: inline-flex;
-        align-items: center;
-        margin-bottom: 5vh;;
-    }
-    
-    .hoverDiv {
-        display: flex;
-        flex-direction: column;
-        margin-left: 3vw;
-        font-size: 1em;
-    }
-    
-    .honorMargin {
-        margin-bottom: 1vh;
     }
 }
 
@@ -314,11 +272,12 @@ Skills Mobile
     .skillsContainer {
         display: flex;
         width: 90vw;
-        height: 61vh;
+        height: 59.5vh;
         margin-top: 2vh;
         margin-left: 5vw;
         padding-top: 10vh;
         font-weight: 200;
+        justify-content: flex-start;
         overflow-x: scroll;
     }
     
@@ -644,7 +603,7 @@ Academic Project Mobile
         margin-bottom: 5vh;
     }
     
-    .projectsLeftTitle {
+    .projectsLeftTitle {    
         font-size: 0.8em;
         margin-bottom: 5vh;
     }

@@ -3,6 +3,7 @@ import styles from './ResumeSections.module.css';
 import { courses } from './ResumeSectionCourses.js';
 import { projects } from './ResumeSectionAcademicProjects';
 import { SelectionBarButton } from './Button';
+import HonorsImgViewer from './HonorsImgViewer';
 
 export function Education() {
 
@@ -40,37 +41,30 @@ export function Education() {
 }
 
 export function Honors() {
-
-    const [active, setActive] = useState(false);
-
-    const handleHover = () => {
-        setActive(true);
-    }
-
-    const handleUnhover = () => {
-        setActive(false);
-    }
-
+    /*
+    When adding a new honor, follow the format:
+    <HonorsImgViewer
+        title='the title of the honor'
+        logo='the LINK to the logo of issuer'
+        links={[]} ... an array of images, proof of honors
+    */
 
     return (
-        <div className={styles.honorsContainer}>
-            <a className={styles.honorsDiv} href='https://www.phikappaphi.org/about' target='_blank' rel='noreferrer'>
-                <img className={styles.honorsLogo} src='PKPLogo.png' alt='Phi Kappa Phi Logo' />
-                <p>&nbsp;&nbsp;&nbsp;Selected member of the Honor Society of Phi Kappa Phi</p>
-            </a>
-            <div className={styles.honorsDiv} onMouseOver={handleHover} onMouseLeave={handleUnhover}>
-                <img className={styles.honorsLogo} src='uscLogo.png' alt='usc logo'/>
-                <p>&nbsp;&nbsp;&nbsp;The Dean's List of Viterbi School of Engineering</p>
-                <p style={active?{display:'none'}:{display:'inline'}}>&nbsp;&nbsp;&nbsp;(2022 - 2023)</p>
-                <div id='' style={active?{display:'inline'}:{display:'none'}}>
-                    <div className={styles.hoverDiv}>
-                        <p className={styles.honorMargin}>2022 FALL</p>
-                        <p className={styles.honorMargin}>2023 SPRING</p>
-
-                    </div>
-                </div>
+        <>
+            <p className={styles.moreInfo}>Please click for more information</p>
+            <div className={styles.honorsContainer}>
+                <HonorsImgViewer 
+                    title='Member of the Honor Society of Phi Kappa Phi'
+                    logo='PKPLogo.png'
+                    links={['PKPMembership.png']}
+                />
+                <HonorsImgViewer
+                    title={'The Dean\'s List of Viterbi School of Engineering'}
+                    logo='uscLogo.png'
+                    links={['Fall22.png', 'Spr23.png']}
+                />
             </div>
-        </div>
+        </>
     )
 }
 

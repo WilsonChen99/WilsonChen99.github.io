@@ -130,7 +130,6 @@ for mobile
         justify-content: space-between;
         padding-top: 7vh;
         overflow-x: scroll;
-        z-index: 1;
     }
 
     .selected {
@@ -142,7 +141,6 @@ for mobile
         font-weight: 400;
         padding: 10px 30px;
         margin-right: 12vw;
-        z-index: 2;
     }
 
     .unselected {

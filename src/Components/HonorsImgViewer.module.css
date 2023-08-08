@@ -1,0 +1,35 @@
+/* import 'inter' google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+
+/*
+Resetting
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'sans-serif';
+}
+
+.imgViewerContainer {
+    display: flex;
+    align-items: center;
+}
+
+.imgViewerContainer img {
+    width: 5em;
+}
+
+.imgViewerContainer p {
+    color: #28363D;
+    margin-left: 2vw;
+    font-size: 1em;
+    transition: all 0.15s ease-out;
+}
+
+.imgViewerContainer p:hover {
+    color: #6D9197;
+}
+
