@@ -43,27 +43,62 @@ export function Education() {
 export function Honors() {
     /*
     When adding a new honor, follow the format:
-    <HonorsImgViewer
-        title='the title of the honor'
-        logo='the LINK to the logo of issuer'
-        links={[]} ... an array of images, proof of honors
+    1. Create an array of objects for each images for the honorship letter as follows:
+        const newHonor = [
+            {
+                src: 'image link',
+                alt: 'alt',
+                width: 'desired',
+                height: 'desired'
+            }
+        ]
+    2. Add a Honors ImgViewer element as follows: 
+        <HonorsImgViewer
+            logo='issuer's logo link',
+            title='title of the new honor',
+            images={the array in step 1}
     */
+
+    const PKP = [
+        {
+            src: 'PKPMembership.png',
+            alt: 'Phi Kappa Phi Honor Society membership letter',
+            width: 'auto',
+            height: '100vh'
+        }
+    ]
+
+    const DeanList = [
+        {
+            src: 'Fall22.png',
+            alt: 'Dean\'s List Fall 22 Letter',
+            width: '80vw',
+            height: 'auto'
+        },
+        {
+            src: 'Spr23.png',
+            alt: 'Dean\'s List Spring 23 Letter',
+            width: '80vw',
+            height: 'auto'
+        }
+    ]
 
     return (
         <>
             <p className={styles.moreInfo}>Please click for more information</p>
             <div className={styles.honorsContainer}>
-                <HonorsImgViewer 
-                    title='Member of the Honor Society of Phi Kappa Phi'
+                <HonorsImgViewer
                     logo='PKPLogo.png'
-                    links={['PKPMembership.png']}
+                    title='Member of the Honor Society of Phi Kappa Phi'
+                    images={PKP}
                 />
                 <HonorsImgViewer
-                    title={'The Dean\'s List of Viterbi School of Engineering'}
                     logo='uscLogo.png'
-                    links={['Fall22.png', 'Spr23.png']}
+                    title={'The Dean\'s List of Viterbi School of Engineering (22 - 23)'}
+                    images={DeanList}
                 />
             </div>
+            
         </>
     )
 }
