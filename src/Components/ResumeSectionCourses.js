@@ -32,7 +32,7 @@ export const courses = [
     {
         code: 'CSCI 201',
         title: 'Principles of Software Development',
-        description: 'Advanced training emphasizing Java programming, software engineering and software development principles.',
+        description: 'Foundamental training emphasizing Java programming, software engineering and software development principles (Particularly Waterfall).',
         link: 'https://web-app.usc.edu/soc/syllabus/20231/30381.pdf'
     },
     {
@@ -40,6 +40,18 @@ export const courses = [
         title: 'Introduction to Algorithms and Theory of Computing',
         description: 'Advanced training on the design, analysis and applications of algorithms.',
         link: 'https://bytes.usc.edu/cs270/'
+    },
+    {
+        code: 'CSCI 310',
+        title: 'Software Engineering',
+        description: 'Advanced training on software engineering and software development principles (Particularly Agile).',
+        link: 'https://web-app.usc.edu/soc/syllabus/20183/30113.pdf'
+    },
+    {
+        code: 'CSCI 356',
+        title: 'Introduction to Computer Systems',
+        description: 'Foundamental training on computer systems hardware and programming interfaces.',
+        link: 'https://usc-cs356.github.io/syllabus.html'
     },
     {
         code: 'ITP 115',

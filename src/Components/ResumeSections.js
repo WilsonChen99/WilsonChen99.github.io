@@ -207,6 +207,14 @@ export function Experience() {
         },
         {
             id: '2',
+            employer: 'USC Viterbi School of Engineering',
+            position: 'Course Producer - CS 270 Introduction to Algorithms and Theory of Computing',
+            area:'Los Angeles, CA',
+            time:'August 2023 - Present',
+            description: 'Provided swift and comprehensive student support, addressing inquiries and aiding with course material, concepts and assignments.'
+        },
+        {
+            id: '3',
             employer: 'Future Employer',
             position: 'Amazing Position',
             area:'Dream Place',
