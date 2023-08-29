@@ -200,7 +200,7 @@ export function Experience() {
         {
             id: '1',
             employer: 'USC Viterbi School of Engineering',
-            position: 'Teaching Assistant - CS@SC Summer Coding Camp, Robotics',
+            position: 'Volunteer Teaching Assistant - CS@SC Summer Coding Camp, Robotics',
             area: 'Los Angeles, CA',
             time: 'May 2023 - June 2023',
             description: 'Assisted students in coding and robotics, fostering their learning and development in a fun and engaging environment.'
@@ -208,7 +208,7 @@ export function Experience() {
         {
             id: '2',
             employer: 'USC Viterbi School of Engineering',
-            position: 'Course Producer - CS 270 Introduction to Algorithms and Theory of Computing',
+            position: 'Undergraduate Teaching Assistant - CS 270 Introduction to Algorithms and Theory of Computing',
             area:'Los Angeles, CA',
             time:'August 2023 - Present',
             description: 'Provided swift and comprehensive student support, addressing inquiries and aiding with course material, concepts and assignments.'
