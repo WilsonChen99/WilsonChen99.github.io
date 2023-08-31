@@ -112,6 +112,7 @@ const salTicketLanguages = [
 const salTicketBrief = [
     'A web application modeling online ticket trading platform.',
     'Real-time event searching is facilitated by acquiring information through a RESTful API.',
+    'Performed data manipulation on the back-end using MySQL. ',
     'A user authentication system is implemented, along with an advanced searching system and additional detailed functions exclusively available to logged-in users.'
 ]
 
@@ -221,8 +222,9 @@ const eCommerceLanguages = [
 
 const eCommerceBrief = [
     'A system modeling e-commerce platform, encompassing features such as keyword searching, adding products to the cart, viewing the cart, and making purchases.',
-    'The implementation is accomplished using various data structures such as classes, maps, and sets, as well as fundamental concepts like pointers and references.',
-    'Concepts such as inheritance and polymorphism were effectively utilized to minimize code duplication.'
+    'The implementation is accomplished using various data structures such as classes, maps, and sets.',
+    'Implemented with principles such as inheritance and polymorphism to effectively minimize code duplication.',
+    'Employed pass-by-reference through pointers and references for enhanced performance and efficiency.'
 
 ]
 
@@ -253,7 +255,7 @@ const bigIntLanguages = [
     }
 ]
 const bigIntBrief = [
-    'Arbitrary large number storage system utilizing vectors.',
+    'Arbitrary large number storage system utilizing vectors in order to overcome the standard 64 bits limitation.',
     'Arithmetic Operations Management for Bases 2 to 36 via Operator Overloading.'
 ]
 const bigInt = {
