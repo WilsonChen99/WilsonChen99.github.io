@@ -88,6 +88,11 @@ export function Honors() {
             <p className={styles.moreInfo}>Please click for more information</p>
             <div className={styles.honorsContainer}>
                 <HonorsImgViewer
+                    logo='TBPLogo.png'
+                    title='Member of the Engineering Honor Society of Tau Beta Pi'
+                    images={""}
+                />
+                <HonorsImgViewer
                     logo='PKPLogo.png'
                     title='Member of the Honor Society of Phi Kappa Phi'
                     images={PKP}
@@ -110,8 +115,8 @@ export function Skills() {
     const sections = {
         Languages: ['Java', 'JavaScript', 'C/C++', 'Python'],
         'Web Dev': ['HTML', 'CSS', 'React', 'jQuery'],
-        Tools: ['Visual Studio Code', 'Eclipse', 'PyCharm', 'Xcode'],
-        DevOps: ['Git']
+        Tools: ['Visual Studio Code', 'Android Studio', 'Eclipse', 'PyCharm', 'Xcode'],
+        DevOps: ['Git/ Github']
     }
 
     const handleClick = (e) => {
@@ -203,7 +208,7 @@ export function Experience() {
             position: 'Teaching Assistant - CS@SC Summer Coding Camp, Robotics',
             area: 'Los Angeles, CA',
             time: 'May 2023 - June 2023',
-            description: 'Provided support to students with programming in VEXvcode VR as well as the assembly and operation of robots.'
+            description: 'Instructed students in VEXcode VR programming and guided students in assembling and operating robots.'
         },
         {
             id: '2',
@@ -211,7 +216,7 @@ export function Experience() {
             position: 'Teaching Assistant - CS 270 Introduction to Algorithms and Theory of Computing',
             area:'Los Angeles, CA',
             time:'August 2023 - Present',
-            description: 'Offered students assistance in understanding subjects such as amortized analysis, divide and conquer, greedy algorithms, graph algorithms, dynamic programming, network flow and NP-complete problems.'
+            description: 'Mentored students in understanding topics such as amortized analysis, divide and conquer, greedy algorithms, graph algorithms, dynamic programming, network flow and NP-complete problems.'
         },
         {
             id: '3',

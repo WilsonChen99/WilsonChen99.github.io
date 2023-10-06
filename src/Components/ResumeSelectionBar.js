@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Education, Honors, Skills, Courses, Experience, Projects} from './ResumeSections';
 import styles from './ResumeSelectionBar.module.css';
 
-const options = ['Education', 'Honors', 'Skills', 'Courses', 'Experience', 'Academic Projects'];
+const options = ['Education', 'Honors', 'Skills', 'Courses', 'Experience', 'Projects'];
 
 export function ResumeSelectionBar() {
     const [ selected, setSelected ] = useState (options[0]);
@@ -15,7 +15,7 @@ export function ResumeSelectionBar() {
         Skills: <Skills/>,
         Courses: <Courses/>,
         Experience: <Experience/>,
-        'Academic Projects': <Projects/>
+        Projects: <Projects/>
     }
 
 
