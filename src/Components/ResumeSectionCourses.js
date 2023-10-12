@@ -64,5 +64,11 @@ export const courses = [
         title: 'Applied Python',
         description: 'Advanced training on practical Python programming skills.',
         link: 'https://web-app.usc.edu/soc/syllabus/20221/31885.pdf'
+    },
+    {
+        code: 'ITP 380',
+        title: 'Video Game Programming',
+        description: 'In-depth introduction to game industry through 2D and 3D hands-on projects',
+        link: 'https://web-app.usc.edu/soc/syllabus/20221/31908.pdf'
     }
 ]

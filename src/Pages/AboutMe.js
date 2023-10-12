@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import NavBar from '../Components/NavBar';
 import { SelectionBarButton } from '../Components/Button.js';
-import { SWE, catLover, hiker, artist } from '../Components/AboutMeIntros';
+import { SWE, catLover, hiker, artist, golfer } from '../Components/AboutMeIntros';
 import styles from './AboutMe.module.css';
 import forestImg from '../Images/forest.JPG';
 import catImg from '../Images/cat.jpg';

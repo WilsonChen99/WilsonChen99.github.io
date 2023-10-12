@@ -114,7 +114,7 @@ export function Skills() {
 
     const sections = {
         Languages: ['Java', 'JavaScript', 'C/C++', 'Python'],
-        'Web Dev': ['HTML', 'CSS', 'React', 'jQuery'],
+        'Web Dev': ['React', 'HTML', 'CSS', 'jQuery'],
         Tools: ['Visual Studio Code', 'Android Studio', 'Eclipse', 'PyCharm', 'Xcode'],
         DevOps: ['Git/ Github']
     }
