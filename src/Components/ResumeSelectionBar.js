@@ -47,7 +47,7 @@ export function DownloadBar() {
     return (
         <>
             <div className={styles.downloadBarContainer}>
-                <a href='Resume2023.pdf' download='Resume_WangHsing_Chen'>
+                <a href='Resume2024.pdf' download='Resume_WangHsing_Chen'>
                     <button className={styles.downloadBttn}>
                         <span>DOWNLOAD</span>
                         <i className='fa fa-arrow-down'/>
