@@ -80,6 +80,12 @@ export function Honors() {
             alt: 'Dean\'s List Spring 23 Letter',
             width: '80vw',
             height: 'auto'
+        },
+        {
+            src: 'Fall23.png',
+            alt: 'Dean\'s List Fall 23 Letter',
+            width: '80vw',
+            height: 'auto'
         }
     ]
 
@@ -99,7 +105,7 @@ export function Honors() {
                 />
                 <HonorsImgViewer
                     logo='uscLogo.png'
-                    title={'The Dean\'s List of Viterbi School of Engineering (22 - 23)'}
+                    title={'The Dean\'s List of Viterbi School of Engineering (x3)'}
                     images={DeanList}
                 />
             </div>
@@ -113,8 +119,8 @@ export function Skills() {
     const [clicked, setClicked] = useState([]);
 
     const sections = {
-        Languages: ['Java', 'JavaScript', 'C/C++', 'Python'],
-        'Web Dev': ['React', 'HTML', 'CSS', 'jQuery'],
+        Languages: ['Java', 'JavaScript', 'C/C++', 'Python', 'Assembly', 'Unix/Linux Shell'],
+        'Web Dev': ['React', 'HTML', 'CSS', 'jQuery', 'Firebase'],
         Tools: ['Visual Studio Code', 'Android Studio', 'Eclipse', 'PyCharm', 'Xcode'],
         DevOps: ['Git/ Github']
     }
@@ -208,23 +214,23 @@ export function Experience() {
             position: 'Teaching Assistant - CS@SC Summer Coding Camp, Robotics',
             area: 'Los Angeles, CA',
             time: 'May 2023 - June 2023',
-            description: 'Instructed students in VEXcode VR programming and guided students in assembling and operating robots.'
+            description: 'Instructed a class of 9 students in VEXcode VR programming and guided them in assembling and operating robots, as well as enabling students to tackle pathfinding challenges using brute force techniques, as well as fostering a fundamental grasp of essential graph algorithms such as Breadth-First Search and Depth-First Search. '
         },
         {
             id: '2',
             employer: 'USC Viterbi School of Engineering',
-            position: 'Teaching Assistant - CS 270 Introduction to Algorithms and Theory of Computing',
+            position: 'Course Producer - CSCI 270 Introduction to Algorithms and Theory of Computing',
             area:'Los Angeles, CA',
-            time:'August 2023 - Present',
-            description: 'Mentored students in understanding topics such as amortized analysis, divide and conquer, greedy algorithms, graph algorithms, dynamic programming, network flow and NP-complete problems.'
+            time:'August 2023 - December 2023',
+            description: 'Conduct weekly office hours to provide in-depth guidance on topics in amortized analysis, divide and conquer, greedy algorithms, graph algorithms, dynamic programming, network flow, linear programming and NP-complete principles.'
         },
         {
             id: '3',
-            employer: 'Future Employer',
-            position: 'Amazing Position',
-            area:'Dream Place',
-            time:'',
-            description: 'I am prepared to be the best fit for your need.'
+            employer: 'USC Viterbi School of Engineering',
+            position: 'Course Producer - CSCI 356 Introduction to Computer Systems',
+            area:'Los Angeles, CA',
+            time:'January 2024 - Present',
+            description: 'Conduct weekly office hours to provide in-depth guidance on topics in bitwise operations, assembly languages, as well as more comprehensive studies about caches, including organization flow, addressing, pipelining and heap management.'
         }
     ]
 
