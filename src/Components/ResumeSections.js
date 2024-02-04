@@ -94,14 +94,14 @@ export function Honors() {
             <p className={styles.moreInfo}>Please click for more information</p>
             <div className={styles.honorsContainer}>
                 <HonorsImgViewer
-                    logo='TBPLogo.png'
-                    title='Member of the Engineering Honor Society of Tau Beta Pi'
-                    images={""}
-                />
-                <HonorsImgViewer
                     logo='PKPLogo.png'
                     title='Member of the Honor Society of Phi Kappa Phi'
                     images={PKP}
+                />
+                <HonorsImgViewer
+                    logo='TBPLogo.png'
+                    title='Member of the Engineering Honor Society of Tau Beta Pi'
+                    images={""}
                 />
                 <HonorsImgViewer
                     logo='uscLogo.png'
