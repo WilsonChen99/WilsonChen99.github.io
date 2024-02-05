@@ -2,7 +2,7 @@ import styles from './AboutMeIntros.module.css';
 
 export const SWE = 
 <p>
-    Hi, my name is Wang-Hsing Chen, also go by Wilson, and I am a rising junior at USC Viterbi School of Engineering studying computer science.<br/><br/>
+    Hi, my name is Wang-Hsing Chen, also go by Wilson, and I am a junior at USC Viterbi School of Engineering studying computer science.<br/><br/>
     I appreciate every single learning opportunity, whether during lectures or outside of the classrooms, and always give my all-out 
     effort to transform new knowledge into a solid foundation to cope with any challenges in the future.<br/><br/>
     As a problem solver at heart, I find immense satisfaction in finding efficient, elegant, and innovative solutions to challenges 

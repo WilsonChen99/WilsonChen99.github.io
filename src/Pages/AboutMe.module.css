@@ -92,6 +92,10 @@
         border-top: 0.25px solid #28363D;
     }
 
+    .textContainer p {
+        text-align: left;
+    }
+
     .leftSubContainer {
         width: 100vw;
         height: 66vh;
